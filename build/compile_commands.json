@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/Users/gaspardcouturier/Desktop/L2/takuzu-03d/build",
+  "command": "/usr/bin/clang   -std=c99 -g3 -Wall --coverage -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -o CMakeFiles/game.dir/game.c.o -c /Users/gaspardcouturier/Desktop/L2/takuzu-03d/game.c",
+  "file": "/Users/gaspardcouturier/Desktop/L2/takuzu-03d/game.c"
+},
+{
+  "directory": "/Users/gaspardcouturier/Desktop/L2/takuzu-03d/build",
+  "command": "/usr/bin/clang   -std=c99 -g3 -Wall --coverage -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -o CMakeFiles/game.dir/game_aux.c.o -c /Users/gaspardcouturier/Desktop/L2/takuzu-03d/game_aux.c",
+  "file": "/Users/gaspardcouturier/Desktop/L2/takuzu-03d/game_aux.c"
+},
+{
+  "directory": "/Users/gaspardcouturier/Desktop/L2/takuzu-03d/build",
+  "command": "/usr/bin/clang   -std=c99 -g3 -Wall --coverage -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -o CMakeFiles/game.dir/game_ext.c.o -c /Users/gaspardcouturier/Desktop/L2/takuzu-03d/game_ext.c",
+  "file": "/Users/gaspardcouturier/Desktop/L2/takuzu-03d/game_ext.c"
+},
+{
+  "directory": "/Users/gaspardcouturier/Desktop/L2/takuzu-03d/build",
+  "command": "/usr/bin/clang   -std=c99 -g3 -Wall --coverage -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -o CMakeFiles/game.dir/game_tools.c.o -c /Users/gaspardcouturier/Desktop/L2/takuzu-03d/game_tools.c",
+  "file": "/Users/gaspardcouturier/Desktop/L2/takuzu-03d/game_tools.c"
+},
+{
+  "directory": "/Users/gaspardcouturier/Desktop/L2/takuzu-03d/build",
+  "command": "/usr/bin/clang   -std=c99 -g3 -Wall --coverage -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -o CMakeFiles/game.dir/game_private.c.o -c /Users/gaspardcouturier/Desktop/L2/takuzu-03d/game_private.c",
+  "file": "/Users/gaspardcouturier/Desktop/L2/takuzu-03d/game_private.c"
+},
+{
+  "directory": "/Users/gaspardcouturier/Desktop/L2/takuzu-03d/build",
+  "command": "/usr/bin/clang   -std=c99 -g3 -Wall --coverage -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -o CMakeFiles/game.dir/queue.c.o -c /Users/gaspardcouturier/Desktop/L2/takuzu-03d/queue.c",
+  "file": "/Users/gaspardcouturier/Desktop/L2/takuzu-03d/queue.c"
+},
+{
+  "directory": "/Users/gaspardcouturier/Desktop/L2/takuzu-03d/build",
+  "command": "/usr/bin/clang   -std=c99 -g3 -Wall --coverage -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -o CMakeFiles/game_text.dir/game_text.c.o -c /Users/gaspardcouturier/Desktop/L2/takuzu-03d/game_text.c",
+  "file": "/Users/gaspardcouturier/Desktop/L2/takuzu-03d/game_text.c"
+},
+{
+  "directory": "/Users/gaspardcouturier/Desktop/L2/takuzu-03d/build",
+  "command": "/usr/bin/clang   -std=c99 -g3 -Wall --coverage -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -o CMakeFiles/game_test_artrobert.dir/game_test_artrobert.c.o -c /Users/gaspardcouturier/Desktop/L2/takuzu-03d/game_test_artrobert.c",
+  "file": "/Users/gaspardcouturier/Desktop/L2/takuzu-03d/game_test_artrobert.c"
+},
+{
+  "directory": "/Users/gaspardcouturier/Desktop/L2/takuzu-03d/build",
+  "command": "/usr/bin/clang   -std=c99 -g3 -Wall --coverage -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -o CMakeFiles/game_test_bbellard.dir/game_test_bbellard.c.o -c /Users/gaspardcouturier/Desktop/L2/takuzu-03d/game_test_bbellard.c",
+  "file": "/Users/gaspardcouturier/Desktop/L2/takuzu-03d/game_test_bbellard.c"
+},
+{
+  "directory": "/Users/gaspardcouturier/Desktop/L2/takuzu-03d/build",
+  "command": "/usr/bin/clang   -std=c99 -g3 -Wall --coverage -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -o CMakeFiles/game_test_gacouturier.dir/game_test_gacouturier.c.o -c /Users/gaspardcouturier/Desktop/L2/takuzu-03d/game_test_gacouturier.c",
+  "file": "/Users/gaspardcouturier/Desktop/L2/takuzu-03d/game_test_gacouturier.c"
+},
+{
+  "directory": "/Users/gaspardcouturier/Desktop/L2/takuzu-03d/build",
+  "command": "/usr/bin/clang   -std=c99 -g3 -Wall --coverage -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -o CMakeFiles/game_ext_test.dir/game_ext_test.c.o -c /Users/gaspardcouturier/Desktop/L2/takuzu-03d/game_ext_test.c",
+  "file": "/Users/gaspardcouturier/Desktop/L2/takuzu-03d/game_ext_test.c"
+},
+{
+  "directory": "/Users/gaspardcouturier/Desktop/L2/takuzu-03d/build",
+  "command": "/usr/bin/clang   -std=c99 -g3 -Wall --coverage -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -o CMakeFiles/game_tools_test.dir/game_tools_test.c.o -c /Users/gaspardcouturier/Desktop/L2/takuzu-03d/game_tools_test.c",
+  "file": "/Users/gaspardcouturier/Desktop/L2/takuzu-03d/game_tools_test.c"
+}
+]
