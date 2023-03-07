@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/opt/homebrew/Cellar/cmake/3.25.1/bin/cmake" "/Users/gaspardcouturier/Desktop/L2/takuzu-03d"
+ConfigureCommand: "/opt/homebrew/Cellar/cmake/3.25.2/bin/cmake" "/Users/gaspardcouturier/Desktop/L2/takuzu-03d"
 MakeCommand: /opt/homebrew/Cellar/cmake/3.25.1/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 

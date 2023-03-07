@@ -83,6 +83,6 @@ CMakeFiles/game.dir/game_aux.c.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/secure/_strings.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/secure/_string.h \
   /Users/gaspardcouturier/Desktop/L2/takuzu-03d/game_ext.h \
+  /Users/gaspardcouturier/Desktop/L2/takuzu-03d/game_private.h \
   /Users/gaspardcouturier/Desktop/L2/takuzu-03d/game_struct.h \
-  /Users/gaspardcouturier/Desktop/L2/takuzu-03d/queue.h \
-  /Users/gaspardcouturier/Desktop/L2/takuzu-03d/game_private.h
+  /Users/gaspardcouturier/Desktop/L2/takuzu-03d/queue.h

@@ -1,6 +1,7 @@
 #include "game_tools.h"
 
 #include <assert.h>
+#include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -39,7 +40,7 @@ game game_load(char* filename) {
     for (int j = 0; j < width; j++) {
       char c;
       fscanf(file, " %c", &c);
-      if (c == '\n'){
+      if (c == '\n') {
         fgetc(file);
       }
       switch (c) {
@@ -105,13 +106,72 @@ void game_save(cgame g, char* filename) {
   fclose(file);
 }
 /*******************************/
-bool game_solve(game g){
+bool game_solve(game g) {
+  assert(g);
+  int pos = 0;
+  int len = g->nb_cols * g->nb_rows;
+  square word[len];
+  for (int i = 0; i < g->nb_rows; i++) {
+    for (int j = 0; j < g->nb_cols; j++) {
+      word[i * g->nb_cols + j] = g->tab[i][j];
+    }
+  }
+  game_solve_rec(len, pos, word, g);
+  return;
+}
 
+void game_solve_rec(int len, int pos, square* word, game g) {
+  if (word[pos] != S_EMPTY) {
+    game_solve_rec(len, pos + 1, word, g);
+  }
+  if (pos == len) {
+    game g1 =
+        game_new_ext(g->nb_rows, g->nb_cols, word, g->wrapping, g->unique);
+    if (game_is_over(g1)) {
+      return;
+    }
+    return;
+  }
+  word[pos] = S_ONE;
+  game_solve_rec(len, pos + 1, word, g);
 
+  word[pos] = S_ZERO;
+  game_solve_rec(len, pos + 1, word, g);
 }
 
 /*******************************/
-uint game_nb_solutions(cgame g){
+uint game_nb_solutions(cgame g) {
+  assert(g);
+  int pos = 0;
+  int len = g->nb_cols * g->nb_rows;
+  square word[len];
+  for (int i = 0; i < g->nb_rows; i++) {
+    for (int j = 0; j < g->nb_cols; j++) {
+      word[i * g->nb_cols + j] = g->tab[i][j];
+    }
+  }
+  unsigned long count = 0;
+  game_nb_solutions_rec(len, pos, &count, word, g);
+  return count;
+}
 
-  
+void game_nb_solutions_rec(int len, int pos, unsigned long* count, square* word,
+                           game g) {
+  if (word[pos] != S_EMPTY) {
+    game_nb_solutions_rec(len, pos + 1, count, word, g);
+  }
+
+  if (pos == len) {
+    game g1 =
+        game_new_ext(g->nb_rows, g->nb_cols, word, g->wrapping, g->unique);
+    if (game_is_over(g1)) {
+      (*count)++;
+    }
+    return;
+  }
+  word[pos] = S_ONE;
+  game_nb_solutions_rec(len, pos + 1, count, word, g);
+
+  word[pos] = S_ZERO;
+  game_nb_solutions_rec(len, pos + 1, count, word, g);
 }
