@@ -1,10 +1,10 @@
-# Distribution of tests and game.c/aux.c
+# Intro
 
-Gaspard: test_game_default, test_game_copy, test_game_equal, test_game_set_square , test_get_number, test_game_delete, test_game_print.
+Takuzu est un jeu de puzzle logique qui se joue sur une grille carrée, généralement de taille 6x6 ou 8x8. Le but du jeu est de remplir la grille avec des 0 et des 1 de manière à respecter deux règles principales : il ne peut y avoir plus de deux chiffres identiques consécutifs dans chaque ligne ou chaque colonne, et chaque ligne et chaque colonne doit contenir un nombre égal de 0 et de 1.
 
-Arthur : test_game_restart, test_game_is_over, test_game_play_move, test_game_check_move, test_game_has_error, test_game_is_immutable, test_game_is_empty.
+Au début du jeu, certaines cases de la grille sont déjà remplies avec des chiffres. Le joueur doit utiliser ces chiffres comme indices pour remplir le reste de la grille. Le jeu peut être assez difficile et nécessite souvent des déductions logiques pour résoudre les puzzles.
 
-Baptiste : test_game_get_next_number, test_game_get_next_square, test_game_get_square, test_game_new_empty, test_game_new, test_game_default_solution.
+Le Takuzu est également connu sous d'autres noms, comme Binairo ou Takitaki, et il est souvent publié dans les magazines de jeux et les journaux.
 
 # takuzu-03d
 
@@ -15,10 +15,3 @@ Takuzu: https://pt2.gitlabpages.inria.fr/support/doc/html/
 game.h: https://pt2.gitlabpages.inria.fr/support/doc/html/game_8h.html#a8ac3e25e3b92fc73f8ebe9942514a01a
 
 game_aux.h: https://pt2.gitlabpages.inria.fr/support/doc/html/game__aux_8h.html
-
-
-## Probleme pour pull/push: Merge
-
-git stash
-git pull <remote> <branch>
-git stash pop
